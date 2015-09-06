@@ -1,0 +1,6 @@
+tests
+.editorconfig
+.gitignore
+.gitattributes
+.eslint*
+README.md

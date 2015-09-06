@@ -4,7 +4,7 @@
   "description": "Satisfies your requirements",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha tests --recursive"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/rizowski/crave-it/issues"
   },
-  "homepage": "https://github.com/rizowski/crave-it#readme"
+  "homepage": "https://github.com/rizowski/crave-it#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^1.3.1",
+    "eslint-watch": "^2.0.0",
+    "istanbul": "^0.3.19",
+    "mocha": "^2.3.0",
+    "sinon": "^1.16.1"
+  },
+  "dependencies": {
+    "fluent-assert": "^0.5.1",
+    "lazy.js": "^0.4.2"
+  }
 }
